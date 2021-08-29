@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icons.png" type="image/icon type">
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="feather-icons-web/feather.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+</head>
+<body>
+    <section class="container-fluid">
+        <div class="row">
+            <!-- side bar start -->
+            <div class="col-12 col-lg-3 col-xl-2 vh-100 sidebar">
+                <div class=" d-flex justify-content-between align-items-center py-2 mt-3 nav-brand">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <span class="p-2 rounded d-flex justify-content-center align-items-center mr-2">
+                            <i class="feather-bar-chart h4"></i>
+                        </span>
+                        <span class="font-weight-bolder h5 mb-0 text-uppercase text-primary">Social Networking</span>
+                    </div>
+                    <button class="hide-sidebar-btn btn btn-dark d-block d-lg-none">
+                        <i class="feather-x-circle" style="font-size: 2rem;"></i>
+                    </button>
+                </div>
+                
+                <div class="main-menu">
+                    <div class="nav-menu">
+                        <ul>
+                            <li class="menu-item">
+                                <a href="template.html" class="menu-item-link">
+                                    <span class="feather-home">My Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="menu-spacer"></li>
+                        </ul>
+                    </div>
+                    <div class="nav-menu">
+                        <ul>
+                        
+                            <li class="menu-item">
+                                <a href="userProfile.html" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-user"></i>
+                                        User Profile
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="news.html" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-book"></i>
+                                        News
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-users"></i>
+                                        Friends
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-spacer"></li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link active">
+                                    <span>
+                                        <i class="feather-bell"></i>
+                                        Notifications
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="map.html" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-map"></i>
+                                        Maps
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="table.html" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Table Lists
+                                    </span>
+                                </a>
+                            </li>
+                            <!-- to change -->
+                            <li class="menu-spacer"></li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-mail"></i>
+                                        Mail Lists
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="memberList.html" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-align-center"></i>
+                                        Member Lists
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-database"></i>
+                                        Reports
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-spacer"></li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-alert-circle"></i>
+                                        Covid-19 Informations
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-briefcase"></i>
+                                        Jobs
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-help-circle"></i>
+                                        Helps and Services
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-spacer"></li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-save"></i>
+                                        Saves
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-download-cloud"></i>
+                                        Downloads
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-moon"></i>
+                                        Dark & Light Mode
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-spacer"></li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-settings"></i>
+                                        Settings
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-clipboard"></i>
+                                        Privacy
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-item-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Log Out
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- nav start -->
+            <div class="col-12 col-lg-9 col-xl-10 vh-100 py-3 content">
+                <div class="row mb-4 header">
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-between p-2 rounded">
+                            <button class="show-sidebar-btn btn btn-dark d-block d-lg-none">
+                                <i class="feather-menu text-light" style="font-size: 2rem;"></i>
+                            </button>
+                            <a href="#" class="head text-uppercase text-black-50">Dashboard</a>
+                            <form class="form">
+                                <div class="input-group d-flex justify-content-between align-items-center form-input">
+                                  <input type="text" value="" class="form-control form-input-child" placeholder="Search...">
+                                  <div class="input-group-append">
+                                    <div class="input-group-text">
+                                      <i class="feather-search"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="p-1 my-0">
+                                    <div class="col-12">
+                                        <button class="btn btn-outline-primary">
+                                            <i class="feather-rotate-cw"></i>     
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                     <i class="feather-globe"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">News</a></li>
+                                      <li><a class="dropdown-item" href="#">Friends</a></li>
+                                      <li><a class="dropdown-item" href="#">Groups</a></li>
+                                    </ul>
+                                  </div>
+                              </form>     
+                        </div>                  
+                    </div>
+                </div>
+                <!-- content area -->
+                <div class="row">
+                    <div class="">
+                        <div class="col-12 col-md-12">
+                            <div class="background">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <h5 class="text-white text-center">Notifications</h5>
+                                </div>                  
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- card -->
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="p-2">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Notifications Styles</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-info alert-dismissible fade show" role="alert">
+                                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-dark alert-dismissible fade show" role="alert">
+                                        <strong>Hey User!</strong> This is a notification with close button and icon and have many lines. You can see that the icon and the close button are always vertically aligned. This is a beautiful notification. So you don't have to worry about the style.
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="p-2">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Notifications Icons</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="alert alert-secondary alert-dismissible fade show d-flex justify-content-start align-items-center" role="alert">
+                                        <span class="">
+                                            <i class="feather-camera fs-3"></i>
+                                        </span>
+                                        <strong>Hey User!</strong> This is notifications of camera icon!
+                                        <button type="button" class="btn-close fs-5" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-info alert-dismissible fade show d-flex justify-content-start align-items-center" role="alert">
+                                        <span class="">
+                                            <i class="feather-award fs-3"></i>
+                                        </span>
+                                        <strong>Hey User!</strong> This is a notification with close button!
+                                        <button type="button" class="btn-close fs-5" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-primary alert-dismissible fade show d-flex justify-content-start align-items-center" role="alert">
+                                        <span class="">
+                                            <i class="feather-bell fs-3"></i>
+                                        </span>
+                                        <strong>Hey User!</strong>This is a notification with bell icon!
+                                        <button type="button" class="btn-close fs-5" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-danger alert-dismissible fade show d-flex justify-content-start align-items-center" role="alert">
+                                        <span class="">
+                                            <i class="feather-alert-triangle fs-3"></i>
+                                        </span>
+                                        <strong>Hey User!</strong>This is a notification with alert icon!
+                                        <button type="button" class="btn-close fs-5" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-warning alert-dismissible fade show d-flex justify-content-start align-items-center" role="alert">
+                                        <span class="">
+                                            <i class="feather-battery-charging fs-2"></i>
+                                        </span>
+                                        <strong>Hey User!</strong>This is a notification with battery charging!
+                                        <button type="button" class="btn-close fs-5" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                    <div class="alert alert-dark alert-dismissible fade show d-flex justify-content-start align-items-center" role="alert">
+                                        <span class="">
+                                            <i class="feather-battery fs-3"></i>
+                                        </span>
+                                        <strong>Hey User!</strong> This is a notification with battery-level!
+                                        <button type="button" class="btn-close fs-5" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-6">
+                        <div class="">
+                            <div class="card">
+                                <div class="card-header">
+                                   <h4 class="card-title text-capitalize text-center text-black">Notifications Places</h4>
+                                   <h6 class="card-title text-capitalize text-black-50 text-center">Click Here</h6>
+                                </div>
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-success" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+                                        Popover on top
+                                      </button>  
+                                    <button type="button" class="btn btn-danger" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                                        Popover on bottom
+                                      </button>                                                                                                         
+                                </div>                               
+                                <div class="card-body">
+                                    <button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+                                        Popover on left
+                                      </button>  
+                                      <button type="button" class="btn btn-info" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+                                        Popover on right
+                                      </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-6">
+                        <div class="">
+                            <div class="card text-center">
+                                <div class="card-header">
+                                  Featured
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Special title treatment</h5>
+                                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    <button class="btn" type="button">
+                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                        Updated 10 min ago
+                                      </button>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+        </div>
+        </div>
+        
+    </section>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="asset/counter_up/counter_up.js"></script>
+    <script src="asset/chart_js/Chart.min.js"></script>
+    <script src="asset/way_point/jquery.waypoints.min.js"></script>
+    <script src="asset/popper.min.js"></script>
+    <script src="js/app.js"></script>
+    <!-- <script src="js/dashboard.js"></script> -->
+    <script>
+         let popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        let popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+});
+    </script>
+</body>
+</html>
